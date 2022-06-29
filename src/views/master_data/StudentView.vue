@@ -23,7 +23,7 @@ export default {
                 {name: 'created_at', text:'Timestamp'},
                 {name: 'action', text:'Action'},
             ],
-            fetchLink: 'http://localhost:8080/api/siswa',
+            fetchLink: 'https://api.suryaabadiraya.co.id/api/siswa',
         }
     },
 }

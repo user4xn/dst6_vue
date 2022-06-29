@@ -94,7 +94,7 @@ export default {
                 confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    axios.delete(`http://localhost:8080/api/siswa/${id}`)
+                    axios.delete(this.fetchLink+`/${id}`)
                     .then(response => {
                         this.entries.splice(index, 1);
                         console.log(response);
